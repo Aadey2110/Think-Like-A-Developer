@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-nav{
+    display:flex;
+    flex-wrap: wrap;
+    /* padding-bottom: 15px; */
+    padding-left: 40px;
+    background-color: black;
+    width: 100%;
+}
+.top-nav li{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    list-style: none;
+    align-items: center;
+    padding-top: 5px;
+}
+.top-nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.top-nav li:hover{
+    background-color: white;
+    color: black;
+}
+.top-nav li:hover a{
+    color: black;
+}
